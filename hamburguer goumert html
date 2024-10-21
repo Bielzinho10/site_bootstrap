@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hambúrguer Gourmet - Hamburgueria Lero Lero</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hamburgueria Lero Lero</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quem_somos.html">Quem Somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Container do Hambúrguer Gourmet -->
+    <div class="container mt-5">
+        <h1 class="text-center">Hambúrguer Gourmet</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/images4.jfif" class="img-fluid" alt="Hambúrguer Gourmet">
+            </div>
+            <div class="col-md-6">
+                <h3>Descrição</h3>
+                <p>O Hambúrguer Gourmet é uma combinação sofisticada de sabores, feito com carne de alta qualidade, queijo brie, cebola caramelizada e um toque de rúcula fresca, tudo isso em um pão artesanal. Uma experiência gastronômica inigualável!</p>
+                <h4>Ingredientes:</h4>
+                <ul>
+                    <li>Carne bovina premium</li>
+                    <li>Queijo brie</li>
+                    <li>Cebola caramelizada</li>
+                    <li>Rúcula</li>
+                    <li>Molho de mostarda e mel</li>
+                    <li>Pão artesanal</li>
+                </ul>
+                <h4>Preço: R$ 35,00</h4>
+                <a href="#" class="btn btn-success">Comprar</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
