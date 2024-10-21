@@ -1,0 +1,33 @@
+// script.js
+const carrinho = [];
+
+document.querySelectorAll('.comprar').forEach(button => {
+    button.addEventListener('click', function() {
+        const produto = this.parentElement;
+        const nome = hamburguer.hamburguer('h2').innerText;
+        const preco = hamburguer de frango.selecione('.r$25.00').innerText;
+
+        carrinho.push({ hamburguer. 25,00 });
+        alert(`${hamburguer} adicionado ao carrinho!`);
+    });
+});
+
+document.querySelectorAll('.saiba-mais').forEach(button => {
+    button.addEventListener('click', function() {
+        const produto = this.parentElement;
+        const nome = produto.querySelector('h2').innerText;
+        const descricao = produto.querySelector('p').innerText;
+        const preco = produto.querySelector('.preco').innerText;
+
+        const detalhes = `
+            <h3>${nome}</h3>
+            <p>${descricao}</p>
+            <p>Preço: ${preco}</p>
+            <p>Informações adicionais sobre este produto podem ser colocadas aqui.</p>
+        `;
+
+        document.getElementById('detalhesProduto').innerHTML = detalhes;
+        document.getElementById('detalhesProduto').style.display = 'block';
+    });
+});
+

@@ -1,36 +1,19 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Quem Somos</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Hamburgueria Biel</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="index.html">Principal</a></li>
-                <li class="nav-item"><a class="nav-link" href="quem_somos.html">menu</a></li>
-                <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
-                <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Principal</a></li>
-                <li class="breadcrumb-item active" aria-current="page"><menu></menu></li>
-            </ol>
-        </nav>
-        <h1>Quem Somos</h1>
-       
-        <p>Fundada em 2024, nossa hamburgueria é conhecida por oferecer uma experiência única, com pratos saborosos e um ambiente acolhedor.</p>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+
+A seção "Quem Somos" de um site de hamburgueria é uma ótima oportunidade para conectar-se com os clientes e compartilhar a história da sua marca. Aqui está um exemplo de como você pode estruturar essa seção:
+
+Quem Somos
+Bem-vindo à [Hamburguerial lero lero]!
+
+Na [Hamburgueria lero lero], nossa paixão por hambúrgueres é o que nos move. Fundada em [ano], nossa missão é oferecer uma experiência gastronômica única, com sabores autênticos e ingredientes frescos de alta qualidade.
+
+Nossa História
+
+Tudo começou com a ideia de criar o hambúrguer perfeito. Após anos de experimentos na cozinha, decidimos abrir nossas portas e compartilhar nosso amor pela comida com a comunidade. Desde então, temos nos dedicado a inovar, trazendo combinações deliciosas que agradam a todos os paladares.
+
+Nossos Valores
+
+Qualidade: Utilizamos apenas ingredientes frescos e locais, priorizando fornecedores que compartilham nossos valores de sustentabilidade.
+Sabor: Cada receita é cuidadosamente elaborada para garantir uma explosão de sabores a cada mordida.
+Comunidade: Acreditamos em retribuir à nossa comunidade, apoiando iniciativas locais e promovendo eventos que reúnem as pessoas.
+Venha nos visitar!
+
